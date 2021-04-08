@@ -4,8 +4,8 @@
 * Spark (Scala SBT)
 * Kafka & Zookeeper
 * MongoDB
-* Flask REST Api
-* Discord bot (python)
+* Flask REST Api (Python - HTML / CSS / JS)
+* Discord bot (Python API)
 * Apache Zeppelin for charts
 
 # Preliminary questions:
