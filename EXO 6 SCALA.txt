@@ -1,5 +1,0 @@
-def average(values: Iterator[Double]): Option[Double] = values.toList match {
-    case h :: Nil => Some(h)
-    case h :: tail => Some((h::tail).sum / (h::tail).size)
-    case _ => None
-  }
