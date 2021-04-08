@@ -1,0 +1,7 @@
+def average(values: Iterator[Double]): Option[Double] = {
+    if (values.isEmpty) { None }  
+    else {
+      val result: (Int, Double) = values.foldLeft((0, 0.0)) { case ((size, sum), element) => (size+1, sum + element) }
+      Some(result._2 / result._1)
+    }
+  }

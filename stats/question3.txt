@@ -1,0 +1,3 @@
+Question 3:
+Average battery : 50.74492263056093
+Average Peace Score : 5.965183752417795

@@ -1,0 +1,7 @@
+Question 2:
+Top 5 coutries with the most alerted of people:
+United States : 96
+Germany : 36
+United Kingdom : 31
+China : 13
+Russia : 13

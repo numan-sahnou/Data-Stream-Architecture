@@ -1,0 +1,2 @@
+Question 5:
+There is 19% of drones which have less than 20% of battery

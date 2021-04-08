@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.6/socket.io.min.js"></script>
+    <script src="static/js/application.js"></script>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="static/css/style.css">
+	<style>
+	      #map {
+	        width: 100%;
+	        height: 600px;
+	        background-color: grey;
+	      }
+	    </style>
+</head>
+<body>
+
+
+<div class="container-fluid">
+  <div class="row header-title">
+    <h1>Peace Watch Viewer</h1>
+    <p><center>Numan SAHNOU - Matthieu ECCHER - Louis DELTHIL</center></p>
+	<h2><b>Peace Watch</b></h2>
+  </div>
+</div>
+<div class="container-fluid" id="content">
+  <div class="row map-google">
+      <h3><span class="yellow">Alert Map</span></h3>
+      <div id="map"></div>
+  </div>
+
+          <h3><span class="yellow">Alert List</span></h3>
+          <table class="container">
+            <thead>
+              <tr>
+                <th scope="col"><h1># &nbsp &nbsp &nbsp</h1></th>
+                <th scope="col"><h1>Drone ID</h1></th>
+                <th scope="col"><h1>Record</h1></th>
+                <th scope="col"><h1>Citizen</h1></th>
+                <th scope="col"><h1>Message</h1></th>
+                <th scope="col"><h1>PeaceScore</h1></th>
+                <th scope="col"><h1>Country</h1></th>
+                <th scope="col"><h1>City</h1></th>
+                <th scope="col"><h1>Latitude</h1></th>
+                <th scope="col"><h1>Longitude</h1></th>
+                <th scope="col"><h1>Battery</h1></th>
+                <th scope="col"><h1>Alert</h1></th>
+              </tr>
+            </thead>
+            <tbody id="alerts">
+            </tbody>
+          </table>
+</div>
+
+	<script async defer
+	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBKtOhaNGMxpQQAQ6ji6ksYY1JMJsSIpM&callback=initMap">
+	</script>
+
+</body>
+</html>
