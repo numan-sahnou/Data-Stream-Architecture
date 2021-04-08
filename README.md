@@ -1,9 +1,12 @@
-# projet-data-engineering
+# Data Stream Architecture
 
-## Members :
-* Numan Sahnou
-* Louis Delthil
-* Matthieu Eccher
+## Technologies used : 
+* Spark (Scala SBT)
+* Kafka & Zookeeper
+* MongoDB
+* Flask REST Api (Python - HTML / CSS / JS)
+* Discord bot (Python API)
+* Apache Zeppelin for charts
 
 # Preliminary questions:
 1. ### __What technical/business constraints apply to the data storage component so that statistical analysis can be easily achieved on the database with a daily data rate of 200GB ?__
@@ -35,6 +38,6 @@
         - Some drone information like battery level. When the battery level is critical, it can gives its position or we can give the instruction to reach the closest station to charge. 
 
 <br></br><br></br>
-# __Our temporary architecture__
+# __Temporary overall architecture__
 
 ![image info](./resources/architecture2.0.png)
