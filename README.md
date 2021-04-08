@@ -1,9 +1,12 @@
-# projet-data-engineering
+# Data Stream Architecture
 
-## Members :
-* Numan Sahnou
-* Louis Delthil
-* Matthieu Eccher
+## Technologies used : 
+* Spark (Scala SBT)
+* Kafka & Zookeeper
+* MongoDB
+* Flask REST Api
+* Discord bot (python)
+* Apache Zeppelin for charts
 
 # Preliminary questions:
 1. ### __What technical/business constraints apply to the data storage component so that statistical analysis can be easily achieved on the database with a daily data rate of 200GB ?__
